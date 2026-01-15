@@ -1,6 +1,5 @@
 package net.maksiuhrino.mcsxps1editiontitle.registry.tabs;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maksiuhrino.mcsxps1editiontitle.MCSXPS1EditionTitle;
 import net.maksiuhrino.mcsxps1editiontitle.registry.block.MCSXPS1EditionTitleBlocks;
