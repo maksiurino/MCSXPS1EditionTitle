@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "mcsxps1editiontitle",
+  "version": "${version}",
+  "name": "MCSXPS1EditionTitle",
+  "description": "A simple client-side mod for Minecraft, that makes title screen buttons go to the left.",
+  "authors": [
+    "just a supra",
+    "Maksiuhrino"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.maksiuhrino.mcsxps1editiontitle.client.datagen.MCSXPS1EditionTitleDataGenerator"
+    ],
+    "client": [
+      "net.maksiuhrino.mcsxps1editiontitle.client.MCSXPS1EditionTitleClient"
+    ],
+    "main": [
+      "net.maksiuhrino.mcsxps1editiontitle.MCSXPS1EditionTitle"
+    ],
+    "modmenu": [
+      "net.maksiuhrino.mcsxps1editiontitle.compat.modmenu.MCSXPS1EditionTitleModMenuCompat"
+    ]
+  },
+  "mixins": [
+    "mcsxps1editiontitle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "modmenu": "*",
+    "cloth-config": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/users/833748748726698054"
+      }
+    }
+  }
+}
