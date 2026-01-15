@@ -111,7 +111,7 @@ public class MCSXPS1EditionTitleTabs {
             output.accept(Items.IRON_LEGGINGS);
             output.accept(Items.IRON_BOOTS);
             output.accept(Items.PORKCHOP);
-            output.accept(Items.COOKED_PORKCHOP);
+            output.accept(Items.COOKED_BEEF);
         });
     }
 }
