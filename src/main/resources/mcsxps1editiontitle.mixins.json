@@ -9,7 +9,11 @@
     "MixinTitleScreen",
     "MixinLogoRenderer",
     "MixinSplashRenderer",
-    "modmenu.MixinModMenuButtonWidget"
+    "modmenu.MixinModMenuButtonWidget",
+
+    "MixinCreativeModeInventoryScreen",
+    "MixinCreativeModeTabs",
+    "MixinControlsScreen"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "id": "mcsxps1editiontitle",
   "version": "${version}",
-  "name": "MCSXPS1EditionTitle",
-  "description": "A simple client-side mod for Minecraft, that makes title screen buttons go to the left.",
+  "name": "MCSX - PS1 Edition Additions",
+  "description": "A simple client-side mod for Minecraft, that makes title screen buttons go to the left. This mod also adds other Minecraft Beta stuff.",
   "authors": [
     "just a supra",
     "Maksiuhrino"
   ],
   "contact": {},
   "license": "MIT",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
       "net.maksiuhrino.mcsxps1editiontitle.client.datagen.MCSXPS1EditionTitleDataGenerator"

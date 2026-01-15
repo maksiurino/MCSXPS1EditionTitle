@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "block/water_block",
+    "tints": [
+      {
+        "type": "minecraft:dye",
+        "default": 4607
+      }
+    ]
+  }
+}
