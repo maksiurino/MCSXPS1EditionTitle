@@ -63,6 +63,55 @@ public class MCSXPS1EditionTitleTabs {
             output.accept(Items.CHEST);
             output.accept(Items.CRAFTING_TABLE);
             output.accept(MCSXPS1EditionTitleBlocks.GEAR);
+
+            // Wool
+
+            output.accept(Items.IRON_SHOVEL);
+            output.accept(Items.IRON_PICKAXE);
+            output.accept(Items.IRON_AXE);
+            output.accept(Items.FLINT_AND_STEEL);
+            output.accept(Items.APPLE);
+            output.accept(Items.ARROW);
+            output.accept(Items.COAL);
+            output.accept(Items.DIAMOND);
+            output.accept(Items.IRON_INGOT);
+            output.accept(Items.GOLD_INGOT);
+            output.accept(Items.IRON_SWORD);
+            output.accept(Items.WOODEN_SWORD);
+            output.accept(Items.WOODEN_SHOVEL);
+            output.accept(Items.WOODEN_PICKAXE);
+            output.accept(Items.WOODEN_AXE);
+            output.accept(Items.STONE_SWORD);
+            output.accept(Items.STONE_SHOVEL);
+            output.accept(Items.STONE_PICKAXE);
+            output.accept(Items.STONE_AXE);
+            output.accept(Items.DIAMOND_SWORD);
+            output.accept(Items.DIAMOND_SHOVEL);
+            output.accept(Items.DIAMOND_PICKAXE);
+            output.accept(Items.DIAMOND_AXE);
+            output.accept(Items.STICK);
+            output.accept(Items.BOWL);
+            output.accept(Items.MUSHROOM_STEW);
+            output.accept(Items.GOLDEN_SWORD);
+            output.accept(Items.GOLDEN_SHOVEL);
+            output.accept(Items.GOLDEN_PICKAXE);
+            output.accept(Items.GOLDEN_AXE);
+            output.accept(Items.STRING);
+            output.accept(Items.GUNPOWDER);
+            output.accept(Items.LEATHER_HELMET);
+            output.accept(Items.LEATHER_CHESTPLATE);
+            output.accept(Items.LEATHER_LEGGINGS);
+            output.accept(Items.LEATHER_BOOTS);
+            output.accept(Items.CHAINMAIL_HELMET);
+            output.accept(Items.CHAINMAIL_CHESTPLATE);
+            output.accept(Items.CHAINMAIL_LEGGINGS);
+            output.accept(Items.CHAINMAIL_BOOTS);
+            output.accept(Items.IRON_HELMET);
+            output.accept(Items.IRON_CHESTPLATE);
+            output.accept(Items.IRON_LEGGINGS);
+            output.accept(Items.IRON_BOOTS);
+            output.accept(Items.PORKCHOP);
+            output.accept(Items.COOKED_PORKCHOP);
         });
     }
 }
