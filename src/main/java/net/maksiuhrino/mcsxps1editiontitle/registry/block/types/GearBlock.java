@@ -85,9 +85,9 @@ public class GearBlock extends HorizontalDirectionalBlock {
         Direction facing = state.getValue(FACING);
 
         Direction[] checkDirs = switch (facing) {
-            case NORTH, SOUTH -> new Direction[]{Direction.EAST, Direction.WEST};
-            case EAST, WEST -> new Direction[]{Direction.NORTH, Direction.SOUTH};
-            default -> new Direction[0];
+            case NORTH, SOUTH -> new Direction[]{Direction.EAST, Direction.WEST, Direction.UP, Direction.DOWN};
+            case EAST, WEST -> new Direction[]{Direction.NORTH, Direction.SOUTH, Direction.UP, Direction.DOWN};
+            default -> new Direction[]{Direction.UP, Direction.DOWN};
         };
 
         for (Direction dir : checkDirs) {
