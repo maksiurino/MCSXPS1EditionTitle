@@ -35,6 +35,9 @@
     "modmenu": "*",
     "cloth-config": "*"
   },
+  "conflicts": {
+    "fancymenu": "*"
+  },
   "custom": {
     "modmenu": {
       "links": {

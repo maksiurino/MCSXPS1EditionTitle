@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/all_tint_cube_all",
   "textures": {
-    "all": "minecraft:block/water_still"
+    "all": "minecraft:block/lava_still"
   }
 }

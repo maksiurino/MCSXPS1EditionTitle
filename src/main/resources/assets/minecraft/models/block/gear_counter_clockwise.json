@@ -1,0 +1,6 @@
+{
+  "parent": "block/gear",
+  "textures": {
+    "gear": "block/gear_counter_clockwise"
+  }
+}

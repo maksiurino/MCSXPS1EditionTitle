@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "spin_type=clockwise,facing=north": {
+      "model": "block/gear_clockwise"
+    },
+    "spin_type=counter_clockwise,facing=north": {
+      "model": "block/gear_counter_clockwise"
+    },
+
+    "spin_type=clockwise,facing=east": {
+      "model": "block/gear_clockwise",
+      "y": 90
+    },
+    "spin_type=counter_clockwise,facing=east": {
+      "model": "block/gear_counter_clockwise",
+      "y": 90
+    },
+
+    "spin_type=clockwise,facing=south": {
+      "model": "block/gear_clockwise",
+      "y": 180
+    },
+    "spin_type=counter_clockwise,facing=south": {
+      "model": "block/gear_counter_clockwise",
+      "y": 180
+    },
+
+    "spin_type=clockwise,facing=west": {
+      "model": "block/gear_clockwise",
+      "y": 270
+    },
+    "spin_type=counter_clockwise,facing=west": {
+      "model": "block/gear_counter_clockwise",
+      "y": 270
+    }
+  }
+}

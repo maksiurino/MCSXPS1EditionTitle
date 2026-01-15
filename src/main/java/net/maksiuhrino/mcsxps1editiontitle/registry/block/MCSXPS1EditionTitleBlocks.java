@@ -1,5 +1,6 @@
 package net.maksiuhrino.mcsxps1editiontitle.registry.block;
 
+import net.maksiuhrino.mcsxps1editiontitle.registry.block.types.GearBlock;
 import net.maksiuhrino.mcsxps1editiontitle.registry.block.types.PlaceableFluidBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -19,6 +20,20 @@ public class MCSXPS1EditionTitleBlocks {
             ResourceLocation.withDefaultNamespace("water_block"),
             properties -> new PlaceableFluidBlock(Blocks.WATER.defaultBlockState(), properties),
             BlockBehaviour.Properties.ofFullCopy(Blocks.WATER),
+            true
+    );
+
+    public static final Block LAVA_BLOCK = register(
+            ResourceLocation.withDefaultNamespace("lava_block"),
+            properties -> new PlaceableFluidBlock(Blocks.LAVA.defaultBlockState(), properties),
+            BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA),
+            true
+    );
+
+    public static final Block GEAR = register(
+            ResourceLocation.withDefaultNamespace("gear"),
+            GearBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion().noCollission(),
             true
     );
 

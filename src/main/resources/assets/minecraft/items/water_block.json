@@ -4,8 +4,8 @@
     "model": "block/water_block",
     "tints": [
       {
-        "type": "minecraft:dye",
-        "default": 4607
+        "type": "minecraft:constant",
+        "value": 4607
       }
     ]
   }
